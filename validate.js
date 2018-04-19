@@ -48,6 +48,7 @@ function validateMove(p, s, e){
 	if((startPos[0]>8) || (startPos[1]> 8) || (endPos[0]>8) || (endPos[1]> 8)){
 		console.log("Those are not valid coordinates.");
 	}
+
 	else{
 		switch (piece) {
 				case "pawn": console.log(movePawn(startPos, endPos));
